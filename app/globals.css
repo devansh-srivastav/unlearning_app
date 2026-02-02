@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0e1117;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Use Source Code for code elements (like Streamlit) */
+code, pre, kbd, samp {
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Custom radio button styling to match red theme */
+input[type="radio"] {
+  accent-color: #ff4b4b;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  accent-color: #ff4b4b;
+}
