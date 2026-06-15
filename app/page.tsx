@@ -245,7 +245,7 @@ export default function Home() {
         <div className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-white">Model Selection</h2>
           <div className="mb-4">
-            <p className="mb-3 text-white">Choose a model for unlearning:</p>
+            <p className="mb-3 text-white">Choose a model for image generation:</p>
             <div className="flex flex-col gap-3">
               {modelFamilyOptions.map((option) => (
                 <label key={option} className="flex items-center text-white cursor-pointer">
